@@ -88,20 +88,6 @@ The FortiGate solution can be deployed using the Azure Portal or Azure CLI. Ther
 Custom deployment:
 [![Deploy Azure Portal Button](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2F40net-cloud%2Ffortinet-azure-solutions%2Fmain%2FFortiGate%2FActive-Active-ELB-ILB%2Fazuredeploy.json)
 
-### Azure CLI
-
-To deploy via Azure Cloud Shell you can connect via the Azure Portal or directly to [https://shell.azure.com/](https://shell.azure.com/).
-
-- Login into the Azure Cloud Shell
-- Run the following command in the Azure Cloud:
-
-`cd ~/clouddrive/ && wget -qO- https://github.com/40net-cloud/fortinet-azure-solutions/archive/main.tar.gz | tar zxf - && cd ~/clouddrive/fortinet-azure-solutions/FortiGate/Active-Active-ELB-ILB/ && ./deploy.sh`
-
-- The script will ask you a few questions to bootstrap a full deployment.
-
-![Azure Cloud Shell](images/azure-cloud-shell.png)
-
-After deployment you will be shown the IP address of all deployed components. You can access both management GUIs and SSH using the public IP address of the load balancer using HTTPS on port 40030, 40031 and for SSH on port 50030 and 50031. THe FortiGate VMs are also acessible using their private IPs on the internal subnet using HTTPS on port 443 and SSH on port 22.
 
 ## Requirements and limitations
 
