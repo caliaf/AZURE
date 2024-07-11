@@ -18,7 +18,7 @@
             "value": "fortinet_fg-vm"
         },
         "fortiGateImageVersion": {
-            "value": "7.2.8"
+            "value": "7.4.4"
         },
         "fortiGateAdditionalCustomData": {
             "value": ""
