@@ -86,7 +86,7 @@ The FortiGate solution can be deployed using the Azure Portal or Azure CLI. Ther
 ### Azure Portal
 
 Custom deployment:
-[![Deploy Azure Portal Button](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcaliaf%2FAZURE%2FFortiGate%2FActive-Active-ELB-ILB%2Fazuredeploy.json)
+[![Deploy Azure Portal Button](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcaliaf%2FAZURE%2Fmain%2FFortiGate%2FActive-Active-ELB-ILB%2Fazuredeploy.json)
 
 
 ## Requirements and limitations
