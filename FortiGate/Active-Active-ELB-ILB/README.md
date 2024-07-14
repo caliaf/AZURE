@@ -17,7 +17,7 @@ In Microsoft Azure, you can deploy op to 8 FortiGate VM instances, all active th
 1. [External and internal Azure Standard Load Balancer](#external-and-internal-azure-standard-load-balancer)
 2. [Internal Azure Standard Load Balancer only](#internal-azure-standard-load-balancer-only)
 3. [External public IP per instance and a internal Azure Standard Load Balancer](#external-public-ip-per-instance-and-a-internal-azure-standard-load-balancer)
-4. [External and internal Azure Standard Load Balancer and a public IP per instance](#external-and-internal-azure-standard-load-balancer-and-a-public-ip-per-instance) 
+4. **[External and internal Azure Standard Load Balancer and a public IP per instance](#external-and-internal-azure-standard-load-balancer-and-a-public-ip-per-instance)**
 5. [Internal Azure Standard Load Balancer and an Azure NAT Gateway for outbound connections](#internal-azure-standard-load-balancer-and-an-azure-nat-gateway-for-outbound-connections)
 6. [External and internal Azure Standard Load Balancer combined with an Azure NAT Gateway for outbound connections](#external-and-internal-azure-standard-load-balancer-and-an-azure-nat-gateway-for-outbound-connections)
 
