@@ -351,6 +351,7 @@
       "metadata": {
         "description": "Subnet 2 start address, 2 consecutive private IPs are required"
       }
+    },
     "subnet3Name": {
       "type": "string",
       "defaultValue": "protectedsubnet",
