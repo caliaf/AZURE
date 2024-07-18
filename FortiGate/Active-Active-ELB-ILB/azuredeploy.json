@@ -1074,7 +1074,8 @@
               "frontendPort": 80,
               "backendPort": 80,
               "enableFloatingIP": true,
-              "idleTimeoutInMinutes": 5
+              "idleTimeoutInMinutes": 5,
+              "DisableOutboundSNAT": true
             },
             "name": "ExternalLBRule-FE-http"
           },
@@ -1093,7 +1094,8 @@
               "frontendPort": 10551,
               "backendPort": 10551,
               "enableFloatingIP": true,
-              "idleTimeoutInMinutes": 5
+              "idleTimeoutInMinutes": 5,
+              "DisableOutboundSNAT": true
             },
             "name": "ExternalLBRule-FE-udp10551"
           }
