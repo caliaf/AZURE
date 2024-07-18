@@ -80,6 +80,12 @@
         "subnet2StartAddress": {
             "value": "172.16.136.68"
         },
+         "subnet3Name": {
+            "value": "protectedsubnet"
+        },
+        "subnet3Prefix": {
+            "value": "172.16.138.0/26"
+        },
         "serialConsole": {
             "value": "yes"
         },
