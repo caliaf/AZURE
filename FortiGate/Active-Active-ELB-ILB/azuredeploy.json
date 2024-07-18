@@ -226,7 +226,7 @@
     },
     "outboundConnectivity": {
       "type": "string",
-      "defaultValue": "per-node-standard-sku-pip",
+      "defaultValue": "external-nat-device-or-elb",
       "allowedValues": [
         "per-node-standard-sku-pip",
         "deploy-nat-gateway",
